@@ -1,0 +1,48 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body{
+background-color: #2A505A;
+box-sizing: border-box;
+margin: 0 auto;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+background-color: #ffff;
+}
+    
+main {
+color: #ffff;
+margin-top: 20px;
+}
+
+
+.container, .text-container, .icons {
+display: flex;
+justify-content: space-between;
+text-align: center;
+padding: 0 70px;
+}
+
+.fa-phone, .fa-envelope, .fa-comment  {
+padding: 50px;
+color: #ffff;
+font-size: xx-large;
+font-weight: bolder;
+}
+
+.fa-arrow-left {
+color: #ffff;
+margin-bottom: 50px;
+margin-top: 10px;
+display: flex;
+justify-content: left;
+}
+
+
+.followus {
+  color: #ffff;
+  }
+  

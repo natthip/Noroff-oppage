@@ -1,0 +1,93 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+.top-header{
+display: flex;
+align-items: center;
+background-color: #D9D9D9;
+padding: 2px;
+}
+
+
+.icon {
+color: #0A3641;
+padding-right: 5px;
+}
+
+
+.findastore {
+  color: black;
+  font-size: 11px;
+  text-align: left;
+  margin-right: 2px;
+  font-weight: lighter;
+  }
+  
+header nav {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header nav ul {
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+header nav ul li {
+margin-right: 120px;
+}
+
+header nav ul li.logo img {
+width: 140px;
+height: 73px;
+margin-right: auto;
+}
+
+nav ul li a {
+color: black;
+text-decoration: none;
+}
+
+nav a:hover {
+text-decoration:underline;
+}
+
+.fa-solid {
+  color: #0A3641;
+  font-weight: bold;
+  font-size:medium;
+  text-decoration: none;
+  margin-left: 20px;
+  }
+
+  h3 {
+    background-color: #F8F8F8;
+    padding: 8px;
+    color: #0A3641;
+    font-size: 20px;
+    text-align: center;
+    float: center ;
+    }
+
+    .followus {
+      color: #0A3641;
+      text-align: center;
+      margin-top: 150px;
+      justify-content: center;
+      }
+    
+  
+
+  
+  

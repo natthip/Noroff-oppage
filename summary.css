@@ -1,0 +1,30 @@
+
+   
+main {
+color: #ffff;
+margin-top: 20px;
+justify-content: center;
+}
+
+
+h1, p {
+color: #ffff;
+text-align: center;
+}
+
+h1 {
+padding-top: 10%;
+}
+
+.truck {
+text-align: center;
+}
+
+.fa-truck {
+font-size: xx-large;
+}
+         
+            
+
+
+

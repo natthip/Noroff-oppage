@@ -1,0 +1,88 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  
+button {
+background-color: #D9D9D9;
+color: black;
+border: none;
+padding: 10px 50px;
+border-radius: 8px;
+}
+
+
+form {
+display: flex;
+justify-content: right;
+padding-right: 30px;
+}
+
+h5{
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 0.5em;
+  color: black;
+  background-color: #D9D9D9;
+  height: 30px;
+}
+
+  
+.canoe img{
+max-width: 100%;
+height: auto;
+}
+
+.canoe1 {
+position: relative;
+display: inline-block;
+}
+
+
+.over-laytext {
+position: absolute;
+bottom: 1px;
+right: 0;
+background-color: rgba (0,0,0,0.5);
+color: #ffffff;
+font-size: 40px;
+font-weight: bold;
+}
+
+
+  
+.image-boy-girl, .container-text {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  }
+
+  .container-text {
+  color: #0A3641;
+  font-weight: bold;
+  font-size: medium;
+  }
+          
+
+p {
+font-weight: 200;
+font-style: italic;
+}
+  
+
+header {
+margin-bottom: 140px;
+}
+  
+main {
+margin-top: 140px; 
+}
+  

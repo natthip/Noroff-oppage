@@ -1,0 +1,86 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body{
+box-sizing: border-box;
+margin: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.buttons {
+display: flex;
+padding-left: 15%;
+}
+    
+
+button {
+    background-color: #2F545E;
+    color: #ffffff;
+    padding: 10px 50px 10px 50px;
+    font-weight:bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:medium;
+    }
+    
+
+.content {
+padding-left: 50px;
+}
+
+.check-out {
+color:#C4C4C4;
+padding-left: 50px;
+}
+
+.jacket-container {
+padding-top: 40px;
+display: flex;
+padding-left: 20px;
+}
+
+
+.mens-rainparka {
+font-size: large;
+font-weight: bold;
+color: black;
+padding-top: 10px;
+}
+
+.size {
+color: #C4C4C4;
+justify-content: center;
+}
+
+.price {
+color: #000000;
+}
+
+.underline {
+color: #C4C4C4;
+font-weight: lighter;
+padding-left: 20px;
+}
+
+.items, .saveforlater {
+font-size: x-small;
+padding-left: 560px;
+}
+
+.saveforlater {
+padding-left: 540px;
+}
+
+.total-price {
+font-size: small;
+font-weight: bold;
+padding-left: 30px;
+display: flex;
+justify-content: space-between;
+padding-right: 870px;
+}
+
